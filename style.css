@@ -237,7 +237,7 @@ section.followus a{
     right: 10px;
   }
   footer{
-    background-color: #b19f9f;
+    background-color: rgb(196, 201, 205);
     height: 450px;
     display: flex;
     justify-content: space-between;
@@ -284,3 +284,72 @@ section.followus a{
     margin-top: 40px;
     font-size: 18px;
   }
+
+  section.menu{
+    display: flex;
+    background-attachment: fixed;
+    background-color: #d5cacab8;
+    display: flex;
+    
+  }
+
+  section.menu div:nth-child(2){
+
+    margin-top: 180px;
+  }
+  section.menu div:nth-child(2) h3{
+    font-size: 65px;
+  }
+  section.menu div:nth-child(2) section#food h5{
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 50px;
+    display: flex;
+  }
+  .dishes text{
+
+    font-size: 15px;
+  }
+  .forprice{
+    margin-top: 10PX;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .forprice p{
+    font-size: 18px;
+  }
+
+  section#food p.description{
+    font-size: 19px;
+  }
+  
+  section.menu div img{
+    
+    width: 50vw; /* ეკრანის ნახევრამდე იყოს */
+    height: auto; /* პროპორციების შენარჩუნება */
+    object-fit: cover; /* სურათის სწორად შევსება */
+    object-position: left top; /* მარცხენა კუთხეს მიეწებოს */
+    transform: scale(0.9); /* შემცირება, რომ შიგნით შორს გამოჩნდეს */
+    transform-origin: left top; /* მარცხენა ზედა კუთხე დარჩეს უცვლელი */
+    position: relative;
+  }
+  .line{
+    background-color:#978d8dfd;
+    width: 700px;
+    height: 1px;
+    margin-top: 15px;
+  }
+  .scroll{
+    scroll-behavior: auto;
+  }
+
+  h5{
+    font-size: 30px;
+    font-weight: 200;
+    margin-top: 50px;
+
+  }
+
+
+
