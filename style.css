@@ -403,6 +403,35 @@ section.followus a{
     
 }
   
+section.contact{
+  height: 300px;
+}
+div.adress1{
+  margin-top: 10px;
+}
+div.time{
+  margin-top: 10px;
+}
+.contactforabout{
+  font-size: 60px;
+}
+
+div.time p,
+div.adress1 p{
+  font-size: 18px;
+}
+
+.booking{
+  padding-bottom: 60px;
+
+  background-color:#85944e89 ;
+}
+.booking a{
+  color: #000;
+  font-size: 25px;
+  margin-left: 920px;
+ 
+}
  
   
   
