@@ -19,3 +19,8 @@ prevButton.addEventListener('click', () => {
     track.style.transform = `translateX(-${currentIndex * (100 / 4)}%)`;
   }
 });
+
+
+  const today = new Date().toISOString().split('T')[0];
+  document.getElementById('booking-date').setAttribute('min', today);
+

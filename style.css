@@ -423,15 +423,25 @@ div.adress1 p{
 
 .booking{
   padding-bottom: 60px;
-
-  background-color:#85944e89 ;
+  margin-top: 300px;
+  display: flex;
+  justify-content: flex-start;
+  gap: 50px;
+  
+  
 }
 .booking a{
   color: #000;
-  font-size: 25px;
-  margin-left: 920px;
+  font-size: 19px;
+  margin-left: 300px;
+
  
 }
+
+option{
+  
+}
+
  
   
   

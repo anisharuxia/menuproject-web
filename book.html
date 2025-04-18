@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <section class="menubox">
+          <div style="margin-left: 60px; ; " class="title">
+              <p style="color: black; font-size: 60px;margin-top: 30px; "><b>PU</b><i>R</i><b>EMENT</b></p>
+          </div>
+          <div class="select">
+            <nav>
+              <ul>
+                <li><a href="./index.html">HOME</a></li>
+                <li><a href="./menu.html">MENU</a></li>
+                <li><a href="./about.html">ABOUT</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="./book.html">BOOK A TABLE </a></li>
+              </ul>
+            </nav>
+              
+          </div>
+        </section>
+     </header>
+
+     <div class="booking">
+        <a href="./index.html">HOME </a>
+        <p>BOOK A TABLE</p>
+    </div>
+
+    <form class="booking-form">
+        <label for="booking-date">party size</label>
+        <select name="guests" id="guests">
+            <option value="disabled selected "> select a guests</option>
+            <option value="guest1">1 guest</option>
+            <option value="guest2">2 guest</option>
+            <option value="guest3">3 guest</option>
+            <option value="guest4">4 guest</option>
+            <option value="guest5">5 guest</option>
+            <option value="guest6">6 guest</option>
+        </select>
+
+        <label for="booking-date">date</label>
+        <input type="date" id="booking-date" name="booking-date" min="" required>
+
+        <label for="time">time</label>
+        <select name="time" id="time">
+            
+            <option value="time">select time</option>
+            <option value="time">12:00 AM</option>
+            <option value="time">12:15 AM</option>
+            <option value="time">12:40 AM</option>
+            <option value="time">1:00 AM</option>
+            <option value="time">1:15 AM</option>
+            <option value="time">1:45 AM</option>
+            <option value="time">2:00 AM</option>
+            <option value="time">2:15 AM</option>
+            <option value="time">2:50 AM</option>
+            <option value="time">12:00 PM</option>
+            <option value="time">1:00  PM</option>
+            <option value="time">1:15  PM</option>
+            <option value="time">1:30  PM</option>
+            <option value="time">2:00 PM</option>
+
+        <button type="submit">Book Now</button>
+      </form>
+      
+
+    <script src="main.js"></script>  
+</body>
+</html>
