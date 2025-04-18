@@ -421,26 +421,75 @@ div.adress1 p{
   font-size: 18px;
 }
 
-.booking{
+
+ 
+
+.bookingpage{
   padding-bottom: 60px;
   margin-top: 300px;
   display: flex;
-  justify-content: flex-start;
+  margin-left: 370px;
   gap: 50px;
   
   
 }
-.booking a{
-  color: #000;
-  font-size: 19px;
-  margin-left: 300px;
 
- 
+div.bookingpage p{
+  font-size: 20px;
+}
+div.bookingpage a{
+  color: #000;
+  text-decoration: none;
+}
+div.book{
+  margin-left:370px ;
+}
+div.book h2{
+  font-size: 80px;
 }
 
-option{
+form.booking-form{
+  margin-top: 20px;
+  margin-left: 300px;
+}
+form.booking-form div.labels{
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 400px;
+  gap: 200px;
+  
   
 }
+form.booking-form div.labels label{
+   font-size: 18px;
+   font-weight: 100;
+}
+form.booking-form div.select{
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 200px;
+  gap: 90px;
+}
+
+form.booking-form div.select select{
+  width: 200px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  
+}
+
+input{
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+  width: 200px;
+}
+
+
+
+
+
 
  
   

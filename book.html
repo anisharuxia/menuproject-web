@@ -27,13 +27,23 @@
         </section>
      </header>
 
-     <div class="booking">
+     <div class="bookingpage">
         <a href="./index.html">HOME </a>
         <p>BOOK A TABLE</p>
+       
+    </div>
+     
+    <div class="book">
+    <h2>BOOK A TABLE</h2>
     </div>
 
     <form class="booking-form">
+        <div class="labels">
         <label for="booking-date">party size</label>
+        <label for="booking-date">date</label>
+        <label for="time">time</label>
+        </div>
+        <div class="select">
         <select name="guests" id="guests">
             <option value="disabled selected "> select a guests</option>
             <option value="guest1">1 guest</option>
@@ -44,10 +54,10 @@
             <option value="guest6">6 guest</option>
         </select>
 
-        <label for="booking-date">date</label>
+        
         <input type="date" id="booking-date" name="booking-date" min="" required>
 
-        <label for="time">time</label>
+       
         <select name="time" id="time">
             
             <option value="time">select time</option>
@@ -65,8 +75,10 @@
             <option value="time">1:15  PM</option>
             <option value="time">1:30  PM</option>
             <option value="time">2:00 PM</option>
+        </select>
+        </div>
 
-        <button type="submit">Book Now</button>
+        
       </form>
       
 
